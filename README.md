@@ -1,5 +1,7 @@
 SELECT PAGESIZE
 ===
+![Screen shot](https://raw.githubusercontent.com/tbsmcd/select_pagesize/images/select_pagesize.png)  
+  
 You can change `<input>` of pagesize to `<select>` with this plugin.
 
 ## Description
