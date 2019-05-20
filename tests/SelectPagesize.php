@@ -10,7 +10,6 @@ class Config
 
 class SelectPagesize extends \PHPUnit\Framework\TestCase
 {
-    private $rcmail;
     private $plugin;
 
     function setUp()
