@@ -10,7 +10,7 @@ In Roundcube, pagesize can be set to any value. If the user sets an extremely la
 Using this plugin, you can not only change `<input>` to `<select>`, but also limit on the server side so that only the value set in `config.inc.php` can be posted.  
 
 ## Set up
-All you have to do is Clone this repo and edit `config.inc.php`.
+All you have to do is `composer install` this repo and edit `config.inc.php`.
 
 ```config.inc.php
 $config['plugins'] = ['archive', 'zipdownload', 'select_pagesize'];
