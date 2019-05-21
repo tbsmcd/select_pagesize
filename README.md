@@ -20,3 +20,6 @@ $config['pagesize_options'] = [10, 20, 50];
 
 ```
 
+## License
+[MIT](https://github.com/tbsmcd/select_pagesize/blob/master/LICENSE)
+
