@@ -55,7 +55,7 @@ class select_pagesize extends rcube_plugin
 
     function preferences_save($args)
     {
-        if (!in_array($args['prefs']['mail_pagesize'], $this->config->get('pagesize_options'))) {
+        if (!in_array((int)$args['prefs']['mail_pagesize'], $this->config->get('pagesize_options'))) {
             $args['prefs']['mail_pagesize'] = $this->config->get('pagesize_options')[0];
         }
         return $args;
