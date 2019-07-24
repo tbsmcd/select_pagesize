@@ -9,9 +9,13 @@ You can change `<input>` of pagesize to `<select>` with this plugin.
 In Roundcube, pagesize can be set to any value. If the user sets an extremely large value, the mail server may be heavily loaded. In order to solve this problem, it is necessary to limit the values ​​that can be set.  
 Using this plugin, you can not only change `<input>` to `<select>`, but also limit on the server side so that only the value set in `config.inc.php` can be posted.  
 
-## Set up
-All you have to do is `composer install` this repo and edit `config.inc.php`.
+## install
 
+`composer require tbsmcd/select_pagesize`
+https://plugins.roundcube.net/packages/tbsmcd/select_pagesize
+
+## Usage
+Just edit `config.inc.php` .
 ```config.inc.php
 $config['plugins'] = ['archive', 'zipdownload', 'select_pagesize'];
 
@@ -19,6 +23,13 @@ $config['plugins'] = ['archive', 'zipdownload', 'select_pagesize'];
 $config['pagesize_options'] = [10, 20, 50];
 
 ```
+
+## Test
+```
+cd /path/to/src/
+phpunit ./plugins/select_pagesize/tests/SelectPagesize.php --bootstrap ./tests/bootstrap.php
+```
+
 
 ## License
 [MIT](https://github.com/tbsmcd/select_pagesize/blob/master/LICENSE)
