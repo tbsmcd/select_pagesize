@@ -31,6 +31,8 @@ cd /path/to/src/
 phpunit ./plugins/select_pagesize/tests/SelectPagesize.php --bootstrap ./tests/bootstrap.php
 ```
 
+## Version
+1.1.0
 
 ## License
 [MIT](https://github.com/tbsmcd/select_pagesize/blob/master/LICENSE)
