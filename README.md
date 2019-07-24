@@ -11,8 +11,9 @@ Using this plugin, you can not only change `<input>` to `<select>`, but also lim
 
 ## install
 
-`composer require tbsmcd/select_pagesize`
-https://plugins.roundcube.net/packages/tbsmcd/select_pagesize
+`composer require tbsmcd/select_pagesize` 
+ 
+repository: https://plugins.roundcube.net/packages/tbsmcd/select_pagesize
 
 ## Usage
 Just edit `config.inc.php` .
